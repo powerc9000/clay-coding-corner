@@ -5,6 +5,17 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
+		<div class="navbar navbar-static-top">
+		  <div class="navbar-inner">
+		  	<div class="container">
+			    <a class="brand" href="#">Clay's Coding Corner</a>
+			    <ul class="nav">
+			      <li><a href="../index.html">Home</a></li>
+			      <li><a href="../javascript/index.html">Javascript</a></li>
+			    </ul>
+		    </div>
+		  </div>
+		</div>
 		<div class="container">
 			<h1>Timeouts/Intervals</h1>
 			<p>Timeouts and intervals are a way to make Javascript runa function at a later date while running other code in the meantime. The function in the timeout/interval is asynchronous</p>
@@ -13,6 +24,19 @@
 			<script src="https://gist.github.com/powerc9000/5587868.js"></script>
 			<p>As I said earlier this code is async so..</p>
 			<script src="https://gist.github.com/powerc9000/5587916.js"></script>
+			<h3>setInterval</h3>
+			<p>Set interval runs a function every X miliseconds</p>
+			<script src="https://gist.github.com/powerc9000/5592433.js"></script>
+			<p>You may want to know how to stop an interval once you got it started.</p>
+			<script src="https://gist.github.com/powerc9000/5592452.js"></script>
+			<p>setInterval returns an interval id. When you pass that id to clearInterval it stops it running</p>
+			<h3>Why this is cool</h3>
+			<p>Several cool things you may want to do can make use of timeouts such as:</p>
+			<ul>
+				<li>Animations</li>
+				<li>Games</li>
+				<li>Other</li>
+			</ul>
 		</div>
 	</body>
 </html>
