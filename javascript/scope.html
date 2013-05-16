@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Scope and some closures</title>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="navbar navbar-static-top">
+		  <div class="navbar-inner">
+		  	<div class="container">
+			    <a class="brand" href="#">Clay's Coding Corner</a>
+			    <ul class="nav">
+			      <li><a href="../index.html">Home</a></li>
+			      <li><a href="index.html">Javascript</a></li>
+			    </ul>
+		    </div>
+		  </div>
+		</div>
+		<div class="container">
+			<h1>Scope <small>and closures</small></h1>
+			<h3>Scope</h3>
+			<p>Javascript unlike C or C++ (which is kinda looks like) is not block scoped but rather functionally scope. So declare your variables at the top of your functions. That's all I have to say about that.</p>
+			<h3>Closures</h3>
+			<p>Closures are cool and I dont't know if I can really do them justice because I am not the greatest at explaining things. I will do a quick example to sort of demonstrate what I am talking about at least. <small><b>Fun</b>ctions are fun!</small></p>
+			<script src="https://gist.github.com/powerc9000/5593241.js"></script>
+			<p>Even though foo returned the function it returned still had access to variables declared in foo! Awesome right?</p>
+			<h3>Why it's cool</h3>
+			<p>Because it allows us to be able to code very powerfully and expressive while hiding information</p>
+			<h4>Uses</h4>
+			<ul>
+				<li>Information Hiding</li>
+				<li>Events</li>
+				<li>Callbacks</li>
+			</ul>
+		</div>
+	</body>
+</html>
